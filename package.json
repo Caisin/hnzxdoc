@@ -1,0 +1,9 @@
+{
+  "name": "south-china-center-account-management-document",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  }
+}
