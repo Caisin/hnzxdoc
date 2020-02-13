@@ -12,4 +12,8 @@ features:
     details: 青海系统梳理文档。
 footer: Create by AsiaInfo  hekx
 ---
----
+
+### Vuepress 文档地址
+
+- [点击查看帮助文档](https://vuepress.vuejs.org/zh/)
+
