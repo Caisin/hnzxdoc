@@ -7,7 +7,7 @@
 
 # 确保脚本抛出遇到的错误
 # 生成静态文件
-sudo npm run build
+vuepress build
 
 # 进入生成的文件夹
 cd docs

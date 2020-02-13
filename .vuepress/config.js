@@ -96,6 +96,7 @@ function genZhLocales() {
             // {text: 'CSF 服务',link: "http://172.25.132.86:9000/cmpk-api/"}
         ],
         sidebar: {
+            "/zh/hnzx/": genSingleSideBar("华南中心"),
             "/zh/hn/": genSingleSideBar("湖南"),
             "/zh/qh/": genSingleSideBar("青海"),
         }
