@@ -2,7 +2,7 @@
 home: true
 heroImage: /img/logo.png
 actionText: 快速开始 →
-actionLink: /zh/hnzn/
+actionLink: /zh/hnzx/
 features:
   - title: 华南中心
     details: 华南中心系统文档。
