@@ -90,7 +90,7 @@ function genZhLocales() {
             }
         },
         nav: [
-            {text: '首页', link: '/zh/'},
+            {text: '首页', link: '/'},
             {text: '华南中心', link: '/zh/hnzx/'},
             {text: '湖南', link: '/zh/hn/'},
             {text: '青海', link: '/zh/qh/'},
