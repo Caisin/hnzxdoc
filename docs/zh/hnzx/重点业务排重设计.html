@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>重点业务排重设计 | 华南中心 账管文档</title>
+    <meta name="description" content="华南中心 账管文档">
+    
+    
+    <link rel="preload" href="/hnzxdoc/assets/css/0.styles.c8248dd9.css" as="style"><link rel="preload" href="/hnzxdoc/assets/js/app.37617a46.js" as="script"><link rel="preload" href="/hnzxdoc/assets/js/2.03154483.js" as="script"><link rel="preload" href="/hnzxdoc/assets/js/9.7ce556cb.js" as="script"><link rel="prefetch" href="/hnzxdoc/assets/js/10.339e5063.js"><link rel="prefetch" href="/hnzxdoc/assets/js/11.8a56c68c.js"><link rel="prefetch" href="/hnzxdoc/assets/js/3.612fde38.js"><link rel="prefetch" href="/hnzxdoc/assets/js/4.c8dc16cc.js"><link rel="prefetch" href="/hnzxdoc/assets/js/5.015f8449.js"><link rel="prefetch" href="/hnzxdoc/assets/js/6.4ff15af9.js"><link rel="prefetch" href="/hnzxdoc/assets/js/7.256ede42.js"><link rel="prefetch" href="/hnzxdoc/assets/js/8.141f4b03.js">
+    <link rel="stylesheet" href="/hnzxdoc/assets/css/0.styles.c8248dd9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/hnzxdoc/" class="home-link router-link-active"><!----> <span class="site-name">华南中心 账管文档</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/hnzxdoc/" class="nav-link">首页</a></div><div class="nav-item"><a href="/hnzxdoc/zh/hnzx/" class="nav-link router-link-active">华南中心</a></div><div class="nav-item"><a href="/hnzxdoc/zh/hn/" class="nav-link">湖南</a></div><div class="nav-item"><a href="/hnzxdoc/zh/qh/" class="nav-link">青海</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/hnzxdoc/zh/hnzx/重点业务排重设计.html" class="nav-link">简体中文</a></li><li class="dropdown-item"><!----> <a href="/hnzxdoc/en/" class="nav-link">English</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/hnzxdoc/" class="nav-link">首页</a></div><div class="nav-item"><a href="/hnzxdoc/zh/hnzx/" class="nav-link router-link-active">华南中心</a></div><div class="nav-item"><a href="/hnzxdoc/zh/hn/" class="nav-link">湖南</a></div><div class="nav-item"><a href="/hnzxdoc/zh/qh/" class="nav-link">青海</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/hnzxdoc/zh/hnzx/重点业务排重设计.html" class="nav-link">简体中文</a></li><li class="dropdown-item"><!----> <a href="/hnzxdoc/en/" class="nav-link">English</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>华南中心</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/hnzxdoc/zh/hnzx/" class="sidebar-link">华南中心文档</a></li><li><a href="/hnzxdoc/zh/hnzx/重点业务排重设计.html" class="active sidebar-link">重点业务排重设计</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/hnzxdoc/zh/hnzx/重点业务排重设计.html#_1-配置表" class="sidebar-link">1.配置表</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="重点业务排重设计"><a href="#重点业务排重设计" class="header-anchor">#</a> 重点业务排重设计</h1> <h2 id="_1-配置表"><a href="#_1-配置表" class="header-anchor">#</a> 1.配置表</h2> <div class="language-sql extra-class"><pre class="language-sql"><code><span class="token comment">-- Create table</span>
+<span class="token keyword">create</span> <span class="token keyword">table</span> PARAM<span class="token punctuation">.</span>AM_REPEAT_CHECK_CONFIG
+<span class="token punctuation">(</span>
+    PAGE_NAME   VARCHAR2<span class="token punctuation">(</span><span class="token number">200</span><span class="token punctuation">)</span>           <span class="token operator">not</span> <span class="token boolean">null</span><span class="token punctuation">,</span>
+    ID_KEY      VARCHAR2<span class="token punctuation">(</span><span class="token number">50</span><span class="token punctuation">)</span>            <span class="token operator">not</span> <span class="token boolean">null</span><span class="token punctuation">,</span>
+    EXPIRE_TIME NUMBER<span class="token punctuation">(</span><span class="token number">8</span><span class="token punctuation">)</span> <span class="token keyword">default</span> <span class="token number">60000</span> <span class="token operator">not</span> <span class="token boolean">null</span><span class="token punctuation">,</span>
+    OPERATOR    VARCHAR2<span class="token punctuation">(</span><span class="token number">20</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    STATE       <span class="token keyword">CHAR</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">)</span>   <span class="token keyword">default</span> <span class="token string">'U'</span>   <span class="token operator">not</span> <span class="token boolean">null</span>
+<span class="token punctuation">)</span>
+    PCTFREE <span class="token number">10</span>
+    INITRANS <span class="token number">20</span>
+    MAXTRANS <span class="token number">255</span>
+    <span class="token keyword">TABLESPACE</span> TBS_PARAM_CFG_DAT_01<span class="token punctuation">;</span>
+<span class="token keyword">comment</span> <span class="token keyword">on</span> <span class="token keyword">table</span> PARAM<span class="token punctuation">.</span>AM_REPEAT_CHECK_CONFIG <span class="token operator">is</span> <span class="token string">'重点业务排重配置表'</span><span class="token punctuation">;</span>
+<span class="token keyword">comment</span> <span class="token keyword">on</span> <span class="token keyword">column</span> PARAM<span class="token punctuation">.</span>AM_REPEAT_CHECK_CONFIG<span class="token punctuation">.</span>PAGE_NAME <span class="token operator">is</span> <span class="token string">'页面名称'</span><span class="token punctuation">;</span>
+<span class="token keyword">comment</span> <span class="token keyword">on</span> <span class="token keyword">column</span> PARAM<span class="token punctuation">.</span>AM_REPEAT_CHECK_CONFIG<span class="token punctuation">.</span>ID_KEY <span class="token operator">is</span> <span class="token string">'页面请求号码的key,如cond_ACCESS_NO'</span><span class="token punctuation">;</span>
+<span class="token keyword">comment</span> <span class="token keyword">on</span> <span class="token keyword">column</span> PARAM<span class="token punctuation">.</span>AM_REPEAT_CHECK_CONFIG<span class="token punctuation">.</span>EXPIRE_TIME <span class="token operator">is</span> <span class="token string">'唯一ID失效时间,单位ms,默认一分钟'</span><span class="token punctuation">;</span>
+<span class="token keyword">comment</span> <span class="token keyword">on</span> <span class="token keyword">column</span> PARAM<span class="token punctuation">.</span>AM_REPEAT_CHECK_CONFIG<span class="token punctuation">.</span>OPERATOR <span class="token operator">is</span> <span class="token string">'配置添加人'</span><span class="token punctuation">;</span>
+<span class="token keyword">comment</span> <span class="token keyword">on</span> <span class="token keyword">column</span> PARAM<span class="token punctuation">.</span>AM_REPEAT_CHECK_CONFIG<span class="token punctuation">.</span>STATE <span class="token operator">is</span> <span class="token string">'状态U:启用,E:失效'</span><span class="token punctuation">;</span>
+<span class="token comment">-- Create/Recreate primary, unique and foreign key constraints</span>
+<span class="token keyword">alter</span> <span class="token keyword">table</span> PARAM<span class="token punctuation">.</span>AM_REPEAT_CHECK_CONFIG
+    <span class="token keyword">add</span> <span class="token keyword">constraint</span> PK_AM_REPEAT_CHECK_CONFIG <span class="token keyword">primary</span> <span class="token keyword">key</span> <span class="token punctuation">(</span>page_name<span class="token punctuation">)</span>
+        <span class="token keyword">using</span> <span class="token keyword">index</span>
+            PCTFREE <span class="token number">10</span>
+            INITRANS <span class="token number">20</span>
+            MAXTRANS <span class="token number">255</span>
+            <span class="token keyword">TABLESPACE</span> TBS_PARAM_CFG_IND_01
+            NoLogging
+<span class="token punctuation">;</span>
+</code></pre></div><ol><li><p>页面查询方法通过getPageName()取到页面名称pageName</p></li> <li><p>通过pageName查询AM_REPEAT_CHECK_CONFIG表</p></li> <li><p>有配置,则保存到redis,并根据配置设置失效时间</p></li></ol> <ul><li>key: pageName+&quot;:&quot;+三户ID(通过配置的ID_KEY取值)</li> <li>value: true</li> <li>这个值没有什么用,知识用key标识是否会重复,提交完key会删除</li> <li>每次请求都会重置</li></ul> <ol start="4"><li><p>提交</p></li> <li><p>根据页面的key从redis取值</p></li> <li><p>取到说明请求是有效的</p></li> <li><p>取不到说明请求无效,报错</p></li> <li><p>将生成的唯一流水作为外部流水传到后台</p></li> <li><p>后台可以再次校验</p></li> <li><p>提交成功,删除key</p></li> <li><p>失败重置失效时间</p></li></ol> <div class="language-mermaid extra-class"><pre class="language-text"><code>graph LR
+A[查询] --&gt;B(获取唯一ID)
+    B --&gt; C[页面保存]
+    
+    D[提交]--&gt;E[校验唯一ID]
+    E--&gt;F[以外部流水计入业务日志]
+</code></pre></div><div class="language-mermaid extra-class"><pre class="language-text"><code>graph LR
+	subgraph 查询流程
+        Start(开始) --&gt;Query[/三户ID/]
+        Query --&gt; IsKeyBusi{是否重点业务}
+        IsKeyBusi --&gt;|是| QCfg[查询配置表]--&gt;GenKey[根据配置生成唯一ID]
+        IsKeyBusi --&gt;|否| E[返回页面]
+        GenKey--&gt;E
+    end
+    subgraph 提交流程
+    	Commit(提交)--&gt;if{是否重点业务}
+    if--&gt;|是|ck[校验唯一序列]--&gt;ck{重复是/否?}
+    end
+    
+    
+    
+</code></pre></div><p>3.重点业务一定要考虑排重机制，话单处理、累账要有查重、缴费要有服务锁、赠送要记录已经送的(再次执行报错)、</p> <p>缴费要判断唯一流水已经上账的不能重复上账、</p> <p>短信发送要判断已经发过的不能再发、</p> <p>调账已经调过的不能再处理等等；</p> <p>配置表加个序列的配置(该业务的记录表主键的序列),</p> <p>唯一ID就是通过配置的序列去调服务取序列值,存到redis</p> <p>请求发送到后台,通过传入的唯一序列作为主业务记录的主键ID</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/Caisin/hnzxdoc/edit/master/zh/hnzx/重点业务排重设计.md" target="_blank" rel="noopener noreferrer">帮助我们改善此页面！</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/hnzxdoc/zh/hnzx/" class="prev router-link-active">华南中心文档</a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/hnzxdoc/assets/js/app.37617a46.js" defer></script><script src="/hnzxdoc/assets/js/2.03154483.js" defer></script><script src="/hnzxdoc/assets/js/9.7ce556cb.js" defer></script>
+  </body>
+</html>
