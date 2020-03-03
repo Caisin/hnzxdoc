@@ -97,8 +97,8 @@ function genZhLocales() {
             // {text: 'CSF 服务',link: "http://172.25.132.86:9000/cmpk-api/"}
         ],
         sidebar: {
-            "/zh/hnzx/": genSingleSideBar("华南中心"),
-            "/zh/hn/": genSingleSideBar("湖南"),
+            "/zh/hnzx/": genHnzxSideBar("华南中心"),
+            "/zh/hn/": genHnSideBar("湖南"),
             "/zh/qh/": genSingleSideBar("青海"),
         }
     }
@@ -115,6 +115,34 @@ function assetSideBar(isEn) {
                 "writeoff",
                 "前台设计文档",
                 "后台设计文档"
+            ]
+        }
+    ]
+}
+
+//生成单页面的侧边栏
+function genHnzxSideBar(title) {
+    return [
+        {
+            title: title,
+            collapsable: true,
+            children: [
+                "",
+                "重点业务排重设计",
+            ]
+        }
+    ]
+}
+
+//生成单页面的侧边栏
+function genHnSideBar(title) {
+    return [
+        {
+            title: title,
+            collapsable: true,
+            children: [
+                "",
+                "集团下账流程梳理",
             ]
         }
     ]
